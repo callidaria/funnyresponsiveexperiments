@@ -1,0 +1,52 @@
+.button_manager {
+
+	text-align: center;
+
+}
+
+
+h1 {
+
+	text-align: center;
+
+}
+
+
+button:hover {
+
+	background-color: #ccc;
+	color: #333;
+
+	box-shadow: 4px 7px 4px purple;
+	transform: translateY(1px);
+
+}
+
+
+button {
+
+	background-color: black;
+	color: white;
+
+	align: center;
+	text-decoration: none;
+	font-size: 24px;
+	border: 0px;
+	padding: 10px 40px;
+	margin: 4% 0%;
+	display: inline-block;
+
+	box-shadow: 9px 14px 7px black;
+
+}
+
+
+button:active {
+
+	background-color:#a00;
+	color: black;
+
+	box-shadow: 2px 4px 1px red;
+	transform: translateY(4px);
+
+}
