@@ -1,6 +1,75 @@
-h1 {
+body {
 
 	font-family: "Times", "Times New Roman", serif;
+
+}
+
+
+h1 {
+
 	text-align: center;
+	margin-left: 200px;
+
+}
+
+
+a {
+
+	cursor: pointer;
+	margin-top: 15px;
+
+}
+
+
+.left_bar {
+
+	position: fixed;
+	width: 200px;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+
+	background-color: #222;
+
+}
+
+
+.left_bar a {
+
+	text-decoration: none;
+	padding-left: 17px;
+	font-size: 30px;
+	color: #999;
+
+}
+
+
+.left_bar a:hover {
+
+	color: #800080;
+
+}
+
+
+.content {
+
+	margin-left: 200px;
+
+}
+
+
+.comments {
+
+	padding-left: 75px;
+	padding-right: 75px;
+
+}
+
+
+@media screen and (max-width:600px) {
+
+	h1 { margin-left: 0px; }
+	.content { margin-left: 0px; }
+	.left_bar { display: none; }
 
 }

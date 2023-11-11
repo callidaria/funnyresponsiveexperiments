@@ -18,7 +18,7 @@ button:hover {
 	color: #333;
 
 	box-shadow: 4px 7px 4px purple;
-	transform: translateY(1px);
+	transform: translateY(2px);
 
 }
 
@@ -33,6 +33,7 @@ button {
 	font-size: 24px;
 	border: 0px;
 	padding: 10px 40px;
+	width: 40%;
 	margin: 4% 0%;
 	display: inline-block;
 
@@ -48,5 +49,16 @@ button:active {
 
 	box-shadow: 2px 4px 1px red;
 	transform: translateY(4px);
+
+}
+
+
+@media screen and (max-width: 1200px) {
+
+	button {
+
+		width: 75%;
+
+	}
 
 }
