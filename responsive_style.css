@@ -48,12 +48,13 @@ h1 {
 	vertical-align: middle;
 	width: 100%;
 	height: 15%;
+	cursor: pointer;
 
 }
 
 .column img:hover {
 
-	transform: translateY(-7px);
+	transform: translateX(-7px) translateY(-7px);
 	box-shadow: 4px 4px 7px 0px #444;
 
 }
