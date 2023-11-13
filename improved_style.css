@@ -1,0 +1,70 @@
+body {
+
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	background-color: #004100;
+
+}
+
+
+h1 {
+
+	color: #c00;
+}
+
+
+.wrap_entity {
+
+	/*display: flex;
+	align-items: center;*/
+	width: 100%;
+	height: 300px;
+
+}
+
+
+img {
+
+	width: 700px;
+	height: 300px;
+	flex-wrap: wrap;
+	margin-right: 20px;
+
+}
+
+
+button {
+
+	width: 85%;
+	height: 75px;
+
+}
+
+@media screen and (max-width: 1200px) {
+
+	img {
+
+		width: 350px;
+		height: 150px;
+
+	}
+
+}
+
+
+@media screen and (min-width: 700px) {
+
+	.wrap_entity { 
+
+		display: flex;
+		align-items: center;
+
+	}
+
+	button {
+
+		width: 40%;
+		height: 25px;
+
+	}
+
+}

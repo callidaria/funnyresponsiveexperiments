@@ -1,5 +1,40 @@
 body {
 
 	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	background-color: #004100;
+
+}
+
+
+h1 {
+
+	color: #c00;
+}
+
+
+img {
+
+	width: 700px;
+	height: 300px;
+	flex-wrap: wrap;
+	margin-right: 20px;
+
+}
+
+
+button {
+
+	width: 700px;
+	height: 50px;
+
+}
+
+
+.wrap_entity {
+
+	display: flex;
+	align-items: center;
+	width: 1500px;
+	height: 300px;
 
 }

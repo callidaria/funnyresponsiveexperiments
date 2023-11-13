@@ -52,9 +52,11 @@ h1 {
 
 }
 
+
 .column img:hover {
 
 	transform: translateX(-7px) translateY(-7px);
+	transition: 0.2s;
 	box-shadow: 4px 4px 7px 0px #444;
 
 }
@@ -73,8 +75,7 @@ h1 {
 
 	.column {
 
-		flex: 25%;
-		width: 25%;
+		flex: 21%;
 
 	}
 
@@ -85,9 +86,9 @@ h1 {
 
 	.column {
 
-		flex: 50%;
-		width: 50%;
+		flex: 45%;
 
 	}
 
 }
+

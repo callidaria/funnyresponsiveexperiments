@@ -16,7 +16,7 @@ class AdaptiveClass extends DrawFunctions
 	public drawSidebarAdaptive(int screen_width) {
 
 		if (screenwidth>800)
-			drawSidebarFinal(maximumSidebarWidth);
+			super.drawSidebarFinal(maximumSidebarWidth);
 
 	}
 
@@ -51,7 +51,7 @@ class ResponsiveClass extends DrawFunctions
 
 		// upload dimensions ot element draw
 		for (Element x : e)
-			uploadElementSize(x,
+			super.uploadElementSize(x,
 					(i%rowRange)*squareCrop,(i/rowRange)*squareCrop,
 					squareCrop,squareCrop);
 
